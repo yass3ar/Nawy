@@ -1,0 +1,20 @@
+{ 
+    "url": {
+    "baseURL": "https://www.demoblaze.com/"
+},
+
+    "credentials": {
+      "username": "yassertest",
+      "password": "password123"
+    },
+    
+    "customerDetails": {
+        "name": "yasser",
+        "country": "EGYPT",
+        "city": "Giza",
+        "card": "1234567812345678",
+        "month": "12",
+        "year": "2025"
+    }
+}
+  
