@@ -4,10 +4,6 @@ const basePage = new BasePage(page);
 
 exports.HomePage = class HomePage {
     constructor(page) {
-        console.log(page)
-        if (!page) {
-            throw new Error('Page object is not defined');
-        }
         this.page = page;
         this.signUpButton = page.getByRole('link', { name: 'Sign up' });
         this.loginButton = page.getByRole('link', { name: 'Log in' });
